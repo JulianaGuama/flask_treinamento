@@ -8,9 +8,9 @@ def main():
     body = request.get_json()
 
     if request.method == 'GET':
-        return jsonify(method='GET', body=body, params=request.args, headers=str(request.headers)), 200 #->
+        return jsonify(method='GET', body=body, params=request.args, headers=str(request.headers)), 200
     if request.method == 'POST':
-        return jsonify(method='POST', body=body, params=str(request.args), headers=str(request.headers)), 200 #->
+        return jsonify(method='POST', body=body, params=str(request.args), headers=str(request.headers)), 200
     else:
         return 'erro', 500
 
