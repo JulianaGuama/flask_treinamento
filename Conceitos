@@ -1,0 +1,31 @@
+# REST
+REST significa _Representational State Transfer_.
+
+Plataformas REST utilizam requisições POST, GET (outras)
+
+[protocolo_http](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods/PUT)
+
+# API
+API significa _Application Programming Interface_.
+
+# GET, POST, PUT, DELETE
+GET é um método usado quando se deseja **obter** dados de alguma aplicação.
+POST é um método usado quando se deseja **enviar** dados para alguma aplicação.
+
+|                      	| GET 	| POST 	|
+|----------------------	|-----	|------	|
+| Requisição tem corpo 	| Não 	| Sim  	|
+| Limite 255 char      	| Sim 	| Não  	|
+| Seguro               	| Sim 	| Não  	|
+
+POST é mais lento que GET porque encapsula os dados enviados.
+
+# FLASK
+
+Flask é um micro-framework de desenvolvimento web para Python. Necessita
+
+Similares à Flask:
+* Bottle: micro-framework
+* CherryPy: framework
+* Bobo: framework
+* WebPy: framework
